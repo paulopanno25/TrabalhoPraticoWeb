@@ -32,18 +32,18 @@
 
             <div class="campo">
                 <label for="nome"><strong>CPF</strong></label>
-                <input type="text" name="CPF" id="CPF" required>
+                <input type="text" name="CPF" pattern="([0-9]+)" placeholder="xxx.xxx.xxx-xx" id="CPF" required>
             </div>
 
           <fieldset class="grupo">
                 <div class="campo">
                     <label for="nome"><strong>E-mail</strong></label>
-                    <input type="text" name="email" id="email" required>
+                    <input type="email" name="email" id="email" required>
                 </div>
 
                 <div class="campo">
                     <label for="sobrenome"><strong>Telefone</strong></label>
-                    <input type="text" name="telefone" id="telefone" required>
+                    <input type="text" name="telefone" pattern="([0-9]+)" placeholder="(xx)xxxxx-xxxx" id="telefone" required>
                 </div>
           </fieldset>
 
